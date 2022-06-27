@@ -1,0 +1,33 @@
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        boolean[] state=new boolean[128];
+        int ret=0,cnt=0;
+        char[] c=s.toCharArray();
+        int len=c.length;
+        for(int i=0;i<len;++i){
+            if(state[c[i]]){
+                for(int j=65;j<=97;++j){
+                    state[c[i]]=false;
+                }
+                if(ret<cnt)ret=cnt;
+                cnt=0;
+                --i;
+            }
+            else{
+                state[c[i]]=true;
+                cnt++;
+            }
+        }
+        return Math.max(ret,cnt);
+    }
+}
+
+//runtime:N/A
+//memory:N/A
+//total_testcases:987
+//total_correct:0
+//input_formatted:
+//expected_output:
+//code_output:
+//runtime_error:
+//last_testcase:

@@ -1,0 +1,29 @@
+class Solution {
+    public int maxSubarraySumCircular(int[] nums) {
+        int len=nums.length;
+        if(len==1) return nums[0];
+        int max=Integer.MIN_VALUE,now=nums[0],start=0;
+        boolean[] again=new boolean[len];
+        int i=1;
+        while(start!=i){
+            if(now<0) {
+                now=0;
+                start=i;
+                if(again[i])
+                    break;
+                else
+                    again[i]=true;
+            }
+            now+=nums[i];
+            if(max<now)max=now;
+            if(++i==len)i=0;
+        }
+        return max;
+    }
+}
+
+//total_testcases:110
+//total_correct:96
+//input_formatted:[5,-3,5]
+//expected_output:10
+//code_output:7
