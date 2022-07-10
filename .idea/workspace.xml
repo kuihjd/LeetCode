@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230440ea-7854-4d01-8987-65ae3acfc0b9" name="变更" comment="变更">
+    <list default="true" id="230440ea-7854-4d01-8987-65ae3acfc0b9" name="变更" comment="6-30每日">
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/CherryPickup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/LengthOfLongestFibonacciSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/MinimumNumberOfRefuelingStops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/NextGreaterElementIii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/ReplaceWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/SumListsLcci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220708.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/LeetCodeDataStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/LeetCodeDataStruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Weekly" />
       </list>
     </option>
   </component>
@@ -42,12 +55,15 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="26YPCDZtEhglGvnY1kfdd30TdI3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -66,7 +82,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,9 +93,9 @@
       <recent name="leetcode.editor.cn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestUncommonSubsequenceIi">
-    <configuration name="FindKThSmallestPairDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.FindKThSmallestPairDistance" />
+  <component name="RunManager" selected="Application.Permutations">
+    <configuration name="MakingALargeIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.MakingALargeIsland" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestUncommonSubsequenceIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.LongestUncommonSubsequenceIi" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.Permutations" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumObstacleRemovalToReachCorner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.MinimumObstacleRemovalToReachCorner" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ThreeSum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveOutermostParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.RemoveOutermostParentheses" />
+    <configuration name="Weekly20220708$Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.weekly.Weekly20220708$Answer2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.weekly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubstringWithConcatenationOfAllWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.SubstringWithConcatenationOfAllWords" />
+    <configuration name="Weekly20220708$Answer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.weekly.Weekly20220708$Answer3" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.weekly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,8 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestUncommonSubsequenceIi" />
-        <item itemvalue="Application.SubstringWithConcatenationOfAllWords" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.Weekly20220708$Answer2" />
+        <item itemvalue="Application.Weekly20220708$Answer3" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.MakingALargeIsland" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +251,16 @@
       <workItem from="1656313017387" duration="2495000" />
       <workItem from="1656433477484" duration="307000" />
       <workItem from="1656502054387" duration="596000" />
-      <workItem from="1656566720768" duration="1556000" />
+      <workItem from="1656566720768" duration="4565000" />
+      <workItem from="1656695246583" duration="1368000" />
+      <workItem from="1656775616628" duration="2140000" />
+      <workItem from="1656814711622" duration="2063000" />
+      <workItem from="1656847274752" duration="4831000" />
+      <workItem from="1657094124199" duration="5245000" />
+      <workItem from="1657186664399" duration="9000" />
+      <workItem from="1657250619567" duration="8770000" />
+      <workItem from="1657385008164" duration="388000" />
+      <workItem from="1657453309937" duration="5526000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1656566772852</created>
@@ -241,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656566772852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6-30每日">
+      <created>1656568601151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656568601151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,8 +294,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="变更" />
-    <option name="LAST_COMMIT_MESSAGE" value="变更" />
+    <MESSAGE value="6-30每日" />
+    <option name="LAST_COMMIT_MESSAGE" value="6-30每日" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -386,16 +423,21 @@
           <line>44</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220708.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220708.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="mar" language="JAVA" />
-        <watch expression="check(dx, dy, m, n)" language="JAVA" />
-        <watch expression="solution.minimumObstacles(LeetCodeDataStruct.parserTwoIntArray(&quot;[[0,1,1],[1,1,0],[1,1,0]]&quot;))" language="JAVA" />
-        <watch expression="cur" language="JAVA" />
-        <watch expression="next" />
-        <watch expression="check(k, j)" language="JAVA" />
+        <watch expression="Integer.parseInt(&quot;10111111101111111011111110111111&quot;, 2)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
