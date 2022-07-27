@@ -35,50 +35,52 @@ package leetcode.editor.cn;
 import java.util.List;
 
 //Java：单词拆分
-public class WordBreak{
+public class WordBreak {
     public static void main(String[] args) {
         Solution solution = new WordBreak().new Solution();
         // TO TEST
     }
-    
+
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean wordBreak(String s, List<String> wordDict) {
-        return true;
+    class Solution {
+        public boolean wordBreak(String s, List<String> wordDict) {
+            return true;
+        }
     }
-}
-//leetcode submit region end(Prohibit modification and deletion)
-class Trie{
-    Trie[] next=new Trie[26];
-    boolean isend;
-    void put(int index,char[] c){
-        if(index!=c.length){
-            Trie now=next[c[index]-97];
-            if(now!=null){
-                now=new Trie(index+1,c);
+
+    //leetcode submit region end(Prohibit modification and deletion)
+    private class Trie {
+        Trie[] next = new Trie[26];
+        boolean isEnd;
+
+        void put(int index, char[] c) {
+            if (index != c.length) {
+                Trie now = next[c[index] - 97];
+                if (now == null) now = new Trie(index + 1, c);
+                now.put(index + 1, c);
+            } else {
+                isEnd = true;
             }
-            else{
-                now.put(index+1,c);
+        }
+
+        Trie(int index, char[] c) {
+            put(index, c);
+        }
+
+        Trie(String s) {
+            put(0, s.toCharArray());
+        }
+
+        boolean get(int index, char[] c) {
+            if (index == c.length) {
+                return isEnd;
+            }
+            Trie now = next[c[index] - 97];
+            if (now != null) {
+                return now.get(index + 1, c);
+            } else {
+                return false;
             }
         }
-        else{
-            isend=true;
-        }
     }
-    Trie(int index,char[] c){
-        put(index,c);
-    }
-    boolean get(int index,char[] c){
-        if(index==c.length){
-            return isend;
-        }
-        Trie now=next[c[index]-97];
-        if(now!=null){
-            return now.get(index+1,c);
-        }
-        else{
-            return false;
-        }
-    }
-}
 }
