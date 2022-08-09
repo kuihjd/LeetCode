@@ -1,6 +1,8 @@
 package leetcode.editor.cn;
+
 import java.util.*;
-public class RemoveKDigits{
+
+public class RemoveKDigits {
     public static void main(String[] args) {
         Solution solution = new RemoveKDigits().new Solution();
         ListNode[] t = new ListNode[8];
@@ -9,35 +11,26 @@ public class RemoveKDigits{
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public String removeKdigits(String num, int k) {
-        if(k == num.length()) return "0";
-        /*int[] cnt = new int[10];
-        char[] c = num.toCharArray();
-        for(char i : c){
-            cnt[i - '0']++;
+    class Solution {
+        public String removeKdigits(String num, int k) {
+            if (k == num.length()) return "0";
+            LinkedList<Character> que = new LinkedList<>();
+            que.add('0');
+            for (char i : num.toCharArray()) {
+                while (k > 0 && i < que.peekLast()) {
+                    k--;
+                    que.pollLast();
+                }
+                que.addLast(i);
+            }
+            while (!que.isEmpty() && que.peekFirst() == '0') que.pollFirst();
+            while (k-- > 0) que.pollLast();
+            if (que.isEmpty()) return "0";
+            StringBuilder sb = new StringBuilder();
+            for (char i : que) sb.append(i);
+            return sb.toString();
         }
-        int ts = -cnt[0];
-        for(int i : cnt) ts += i;
-        if(ts <= k) return " ";
-        int tu = 0;
-        for(int )*/
-        LinkedList<Character> que = new LinkedList<>();
-
-        LinkedList<Character> ans = new LinkedList<>();
-        for(char i : num.toCharArray()) que.offerLast(i);
-        while(!que.isEmpty()){
-            char n = que.pollFirst();
-            while(!ans.isEmpty() && ans.peekLast() > n && k-- > 0)ans.pollLast();
-            if(ans.isEmpty() && n == '0') continue;//可以被前置的0直接省略
-            ans.offerLast(n);
-        }
-        StringBuilder ansBuilder = new StringBuilder();
-        while(k-- > 0) ans.pollLast();
-        for(char i : ans) ansBuilder.append(i);
-        return ansBuilder.toString();
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
-    }
+}

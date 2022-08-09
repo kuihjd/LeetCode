@@ -70,36 +70,54 @@
 // 👍 177 👎 0
 
 package leetcode.editor.cn;
+
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+
 //Java：比较版本号
-public class CompareVersionNumbers{
+public class CompareVersionNumbers {
     public static void main(String[] args) {
         Solution solution = new CompareVersionNumbers().new Solution();
         // TO TEST
-        solution.compareVersion("7.5.2.4","7.5.3");
+        solution.compareVersion("7.5.2.4", "7.5.3");
     }
-    
+
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         public int compareVersion(String version1, String version2) {
-            int n1=0,n2=0;
-            char[] c1=version1.toCharArray(),c2=version2.toCharArray();
-            int len1=c1.length,len2=c2.length;
-            int idx1=0,idx2=0;
-            do{
-                n1=0;
-                while(idx1<len1&&c1[idx1]!='.'){
-                    n1=n1*10+c1[idx1]-'0';
-                    idx1++;
+            LinkedList<Integer> l0 = new LinkedList<>();
+            StringBuilder sb1 = new StringBuilder();
+            StringBuilder sb2 = new StringBuilder();
+            LinkedList<Integer> l1 = new LinkedList<>();
+            LinkedList<Integer> l2 = new LinkedList<>();
+            for (String i : version1.split("\\.")) {
+                int v = Integer.parseInt(i);
+                l0.add(v);
+                if (v != 0) {
+                    l1.addAll(l0);
+//                    l0.forEach(sb1::append);
+                    l0.clear();
                 }
-                n2=0;
-                while(idx2<len2&&c2[idx2]!='.'){
-                    n2=n2*10+c2[idx2]-'0';
-                    idx2++;
+            }
+            l0.clear();
+            for (String i : version2.split("\\.")) {
+                int v = Integer.parseInt(i);
+                l0.add(v);
+                if (v != 0) {
+                    l2.addAll(l0);
+//                    l0.forEach(sb2::append);
+                    l0.clear();
                 }
-                idx1++;
-                idx2++;
-            }while(n1==n2&&(idx1<len1||idx2<len2));
-            return Integer.compare(n1, n2);
+            }
+            while (!l1.isEmpty() && !l2.isEmpty()) {
+                int v1 = l1.pollFirst(), v2 = l2.pollFirst();
+                if (v1 > v2) return 1;
+                else if (v1 < v2) return -1;
+            }
+            if (!l1.isEmpty() && l2.isEmpty()) return 1;
+            if (l1.isEmpty() && !l2.isEmpty()) return -1;
+            return 0;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)
