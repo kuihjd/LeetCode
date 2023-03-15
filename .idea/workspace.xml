@@ -4,21 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="230440ea-7854-4d01-8987-65ae3acfc0b9" name="变更" comment="7-27">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/DesignCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/ExclusiveTimeOfFunctions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/PermutationIiLcci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/UniquePathsIi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220731.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220806.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220807.java" afterDir="false" />
+    <list default="true" id="230440ea-7854-4d01-8987-65ae3acfc0b9" name="变更" comment="230315">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/EmployeesEarningMoreThanTheirManagers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/FreedomTrail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/GreatestSumDivisibleByThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/GroupThePeopleGivenTheGroupSizeTheyBelongTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/LongestUnivaluePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/MagicalString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/MaximumBinaryTreeIi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/MaximumLengthOfPairChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/MinimumCostToMakeAtLeastOneValidPathInAGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/MinimumValueToGetPositiveStepByStepSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/One32Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/ReformatTheString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/RemovingMinimumAndMaximumFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/SolveTheEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/SummaryRanges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/ValidateStackSequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20221002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/CompareVersionNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/CompareVersionNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/PacificAtlanticWaterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/PacificAtlanticWaterFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/RemoveKDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/RemoveKDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/CountNumberOfMaximumBitwiseOrSubsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/CountNumberOfMaximumBitwiseOrSubsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Weekly" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,32 +73,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/StudentManger" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -96,13 +95,13 @@
       <recent name="leetcode.editor.cn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Weekly20220807$Answer3">
-    <configuration name="ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.ExclusiveTimeOfFunctions" />
+  <component name="RunManager" selected="应用程序.Test23031201$Main">
+    <configuration name="Test230302" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.mytest.Test230302" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weekly20220806$Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.weekly.Weekly20220806$Answer2" />
+    <configuration name="Test23030802" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.mytest.Test23030802" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.weekly.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weekly20220807$Answer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.weekly.Weekly20220807$Answer2" />
+    <configuration name="Test23031101$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.mytest.Test23031101$Main" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.weekly.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weekly20220807$Answer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.weekly.Weekly20220807$Answer3" />
+    <configuration name="Test23031102$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.mytest.Test23031102$Main" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.weekly.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +148,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Weekly20220807$Answer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.weekly.Weekly20220807$Answer4" />
+    <configuration name="Test230312$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.mytest.Test230312$Main" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.editor.cn.weekly.*" />
+          <option name="PATTERN" value="leetcode.editor.cn.mytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test23031201$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.editor.cn.mytest.Test23031201$Main" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.editor.cn.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,15 +176,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Weekly20220807$Answer3" />
-        <item itemvalue="Application.Weekly20220807$Answer4" />
-        <item itemvalue="Application.Weekly20220807$Answer2" />
-        <item itemvalue="Application.ExclusiveTimeOfFunctions" />
-        <item itemvalue="Application.Weekly20220806$Answer2" />
+        <item itemvalue="应用程序.Test23031201$Main" />
+        <item itemvalue="应用程序.Test230312$Main" />
+        <item itemvalue="应用程序.Test23031102$Main" />
+        <item itemvalue="应用程序.Test23031101$Main" />
+        <item itemvalue="应用程序.Test230302" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\24681\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="C:\Users\24681\.ssh\id_rsa" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="230440ea-7854-4d01-8987-65ae3acfc0b9" name="变更" comment="" />
@@ -290,7 +310,41 @@
       <workItem from="1659716105870" duration="801000" />
       <workItem from="1659752756751" duration="13570000" />
       <workItem from="1659839281557" duration="7267000" />
-      <workItem from="1660020824181" duration="1508000" />
+      <workItem from="1660020824181" duration="3961000" />
+      <workItem from="1660058960994" duration="1458000" />
+      <workItem from="1660061954617" duration="2898000" />
+      <workItem from="1660148802470" duration="2531000" />
+      <workItem from="1660314246460" duration="860000" />
+      <workItem from="1660377241883" duration="39000" />
+      <workItem from="1660444164950" duration="4541000" />
+      <workItem from="1660761960880" duration="698000" />
+      <workItem from="1661419980210" duration="609000" />
+      <workItem from="1661739276828" duration="5186000" />
+      <workItem from="1661819747381" duration="5735000" />
+      <workItem from="1661837051919" duration="6206000" />
+      <workItem from="1661906555935" duration="9714000" />
+      <workItem from="1661928139212" duration="2636000" />
+      <workItem from="1662045721214" duration="2032000" />
+      <workItem from="1662048467414" duration="3443000" />
+      <workItem from="1663225068980" duration="3257000" />
+      <workItem from="1663564800540" duration="51000" />
+      <workItem from="1663636763963" duration="317000" />
+      <workItem from="1663638757340" duration="479000" />
+      <workItem from="1664679375814" duration="1557000" />
+      <workItem from="1677137699854" duration="873000" />
+      <workItem from="1677220463270" duration="4304000" />
+      <workItem from="1678104171883" duration="2351000" />
+      <workItem from="1678108209441" duration="1536000" />
+      <workItem from="1678174344671" duration="1192000" />
+      <workItem from="1678206379427" duration="658000" />
+      <workItem from="1678281290931" duration="6694000" />
+      <workItem from="1678363127121" duration="4595000" />
+      <workItem from="1678444331894" duration="8911000" />
+      <workItem from="1678520869534" duration="4761000" />
+      <workItem from="1678532552959" duration="6774000" />
+      <workItem from="1678589420946" duration="7452000" />
+      <workItem from="1678690441111" duration="1253000" />
+      <workItem from="1678866135138" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1656566772852</created>
@@ -320,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658924335902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="8-9">
+      <created>1660022488787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660022488787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +404,9 @@
     <MESSAGE value="6-30每日" />
     <MESSAGE value="7-10" />
     <MESSAGE value="7-27" />
-    <option name="LAST_COMMIT_MESSAGE" value="7-27" />
+    <MESSAGE value="8-9" />
+    <MESSAGE value="230315" />
+    <option name="LAST_COMMIT_MESSAGE" value="230315" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,8 +632,123 @@
           <line>21</line>
           <option name="timeStamp" value="232" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/SolveTheEquation.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/SolveTheEquation.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/ReformatTheString.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/ReformatTheString.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220814.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220814.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220814.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20220814.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/MinimumCostToMakeAtLeastOneValidPathInAGrid.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/MinimumCostToMakeAtLeastOneValidPathInAGrid.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/SetMatrixZeroes.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20221002.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20221002.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20221002.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20221002.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/weekly/Weekly20221002.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/mytest/Test23030802.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/mytest/Test23030902.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/mytest/Test230302.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/mytest/Test23031101.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/mytest/Test23031102.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/editor/cn/mytest/Test23031102.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="leetcode.editor.cn.mytest.Test230312$User" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
