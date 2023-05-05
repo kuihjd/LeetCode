@@ -1,4 +1,6 @@
 package leetcode.editor.cn;
+import leetcode.editor.cn.datastruct.ListNode;
+
 import java.util.*;
 public class MergeKSortedLists{
     public static void main(String[] args) {

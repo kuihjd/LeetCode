@@ -1,22 +1,22 @@
-package leetcode.editor.cn;
+package leetcode.editor.cn.datastruct;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode() {
+    public ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
 
-    ListNode(int[] val) {
+    public ListNode(int[] val) {
         this.val = val[0];
         ListNode t = this;
         for (int i = 1; i < val.length; ++i) {

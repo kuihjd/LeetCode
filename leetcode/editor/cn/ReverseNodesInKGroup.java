@@ -1,6 +1,6 @@
 package leetcode.editor.cn;
 
-import java.util.*;
+import leetcode.editor.cn.datastruct.ListNode;
 
 public class ReverseNodesInKGroup {
     public static void main(String[] args) {

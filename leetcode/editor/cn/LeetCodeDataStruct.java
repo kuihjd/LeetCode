@@ -1,6 +1,6 @@
 package leetcode.editor.cn;
 
-import java.util.ArrayList;
+import leetcode.editor.cn.datastruct.ListNode;
 
 public class LeetCodeDataStruct {
 

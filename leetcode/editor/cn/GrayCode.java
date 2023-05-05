@@ -1,8 +1,9 @@
 package leetcode.editor.cn;
 
+import leetcode.editor.cn.datastruct.ListNode;
+
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.List;
 
 public class GrayCode {

@@ -1,4 +1,7 @@
 package leetcode.editor.cn;
+
+import leetcode.editor.cn.datastruct.ListNode;
+
 public class RemoveNthNodeFromEndOfList{
     public static void main(String[] args) {
         Solution solution = new RemoveNthNodeFromEndOfList().new Solution();

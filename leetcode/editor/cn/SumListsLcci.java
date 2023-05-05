@@ -1,7 +1,6 @@
 package leetcode.editor.cn;
 
-import java.util.*;
-import java.io.*;
+import leetcode.editor.cn.datastruct.ListNode;
 
 public class SumListsLcci {
     public static void main(String[] args) {

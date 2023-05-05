@@ -1,4 +1,7 @@
 package leetcode.editor.cn;
+
+import leetcode.editor.cn.datastruct.ListNode;
+
 public class RemoveDuplicatesFromSortedListIi{
     public static void main(String[] args) {
         Solution solution = new RemoveDuplicatesFromSortedListIi().new Solution();

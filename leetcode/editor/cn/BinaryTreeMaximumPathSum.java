@@ -28,11 +28,13 @@ public class BinaryTreeMaximumPathSum {
     class Solution {
         int res = Integer.MIN_VALUE;
 
+
         public int maxPathSum(TreeNode root) {
             return Math.max(dfs(root), res);
         }
 
         int dfs(TreeNode root) {
+
             if (root == null) return 0;
             int l = dfs(root.left);
             int r = dfs(root.right);
