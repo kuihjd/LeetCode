@@ -22,18 +22,20 @@ public class MergeKSortedLists{
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode res = new ListNode(), p = res;
-        res.next = null;
-        PriorityQueue<ListNode> pq = new PriorityQueue<>((v1, v2) -> v1.val - v2.val);
-        for(ListNode i:lists)  if(i != null) pq.add(i);
-        while(!pq.isEmpty()){
-            ListNode t = pq.poll();
-            if(t == null) continue;
-            p.next = t;
-            p = t;
-            if(t.next != null)pq.add(t.next);
-
+        PriorityQueue<ListNode> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a.val));
+        for (ListNode list : lists) {
+            if (list != null) {
+                pq.offer(list);
+            }
         }
-        p.next = null;
+        while (!pq.isEmpty()) {
+            ListNode node = pq.poll();
+            p.next = node;
+            p = p.next;
+            if (node.next != null) {
+                pq.offer(node.next);
+            }
+        }
         return res.next;
     }
 }

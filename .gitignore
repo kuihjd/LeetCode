@@ -4,3 +4,5 @@
 **/.idea
 **/.idea/*.*
 **/mytest/*.*
+*.md
+*.lcv

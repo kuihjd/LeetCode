@@ -76,6 +76,7 @@ public class SummaryRanges {
                 }
                 pre = i;
             }
+            ans.add(struct(start, pre));
             return ans;
         }
 

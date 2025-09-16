@@ -1,0 +1,63 @@
+package leetcode.editor.cn;
+
+import java.util.Arrays;
+
+public class FindAndReplaceInString {
+    public static void main(String[] args) {
+
+        Solution solution = new FindAndReplaceInString().new Solution();
+        solution.findReplaceString("abcd", new int[]{0, 2}, new String[]{"ab", "ec"}, new String[]{"eee", "ffff"});
+
+    }
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public String findReplaceString(String s, int[] indices, String[] sources, String[] targets) {
+            int n = indices.length;
+            Pair[] pairs = new Pair[n];
+            for (int i = 0; i < n; ++i) {
+                pairs[i] = new Pair(sources[i], targets[i], indices[i]);
+            }
+            Arrays.sort(pairs, (a, b) -> a.index - b.index);
+            StringBuilder sb = new StringBuilder();
+            int pp = 0;
+            for (int i = 0; i < s.length(); ++i) {
+                if (pp < pairs.length && i == pairs[pp].index) {
+                    int tn = pairs[pp].source.length();
+                    boolean flag = true;
+                    for (int j = 0; j < tn; ++j) {
+                        if (i + j >= s.length() || s.charAt(i + j) != pairs[pp].source.charAt(j)) {
+                            flag = false;
+                            break;
+                        }
+                    }
+                    if (flag) {
+                        sb.append(pairs[pp].target);
+                    } else {
+                        sb.append(s, i, Math.min(i + tn, s.length()));
+                    }
+                    i += tn - 1;
+                    ++pp;
+                } else {
+                    sb.append(s.charAt(i));
+                }
+            }
+            return sb.toString();
+        }
+
+        static class Pair {
+            String source;
+            String target;
+            int index;
+
+            Pair(String source, String target, int index) {
+                this.source = source;
+                this.target = target;
+                this.index = index;
+            }
+
+        }
+    }
+//leetcode submit region end(Prohibit modification and deletion)
+
+}
